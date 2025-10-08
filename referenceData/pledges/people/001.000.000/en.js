@@ -1,0 +1,50 @@
+export default {
+  pledgeId: "people_over_corporations",
+  text: "put people before corporations",
+  shortText: "People over corporations",
+  weight: 70,
+  version: "1.0.0",
+  subject: {
+    voter: "Politicians should",
+    influencer: "Politicians should",
+    politician: "I commit to",
+    government_worker: "I commit to",
+  },
+  subpledges: [
+    {
+      subPledgeId: "fight_wage_theft",
+      text: "fight wage theft.",
+      shortText: "Fight wage theft",
+      weight: 12,
+      version: "1.0.0",
+    },
+    {
+      subPledgeId: "prioritize_health_safety",
+      text: "prioritize public health and safety over corporate profits.",
+      shortText: "public health over profits",
+      weight: 7,
+      version: "1.0.0",
+    },
+    {
+      subPledgeId: "end_corporate_loopholes",
+      text: "support ending corporate tax loopholes that allow companies to avoid paying their fair share.",
+      shortText: "End corporate loopholes",
+      weight: 15,
+      version: "1.0.0",
+    },
+    {
+      subPledgeId: "affordable_medications",
+      text: "advocate for affordable access to medications developed with public funding and oppose excessive price-gouging.",
+      shortText: "Affordable medications",
+      weight: 10,
+      version: "1.0.0",
+    },
+    {
+      subPledgeId: "insurance_fair_coverage",
+      text: "oppose insurance companies denying claims unfairly and support enforcement of fair coverage.",
+      shortText: "Fair insurance",
+      weight: 5,
+      version: "1.0.0",
+    },
+  ],
+};

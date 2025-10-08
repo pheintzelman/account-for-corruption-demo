@@ -1,0 +1,50 @@
+export default {
+  pledgeId: "transparency_and_accountability",
+  text: "be transparent and hold politicians accountable",
+  shortText: "Accountability",
+  weight: 50,
+  version: "1.0.0",
+  subject: {
+    voter: "Politicians should",
+    influencer: "Politicians should",
+    politician: "I commit to",
+    government_worker: "I commit to",
+  },
+  subpledges: [
+    {
+      subPledgeId: "release_epstein_files",
+      text: "support the release of Epstein client lists, flight records, and unedited video evidence.",
+      shortText: "Release Epstein files",
+      weight: 20,
+      version: "1.0.0",
+    },
+    {
+      subPledgeId: "release_taxes",
+      text: "release full tax returns every year in office.",
+      shortText: "Release taxes",
+      weight: 10,
+      version: "1.0.0",
+    },
+    {
+      subPledgeId: "hold_politicians_accountable",
+      text: "hold other politicians accountable for corruption or abuse of power, regardless of political party.",
+      shortText: "Hold politicians accountable",
+      weight: 5,
+      version: "1.0.0",
+    },
+    {
+      subPledgeId: "no_coverups",
+      text: "full transparency in official investigations and reporting, and to not conceal misconduct or wrongdoing.",
+      shortText: "No coverups",
+      weight: 3,
+      version: "1.0.0",
+    },
+    {
+      subPledgeId: "lobbyist_meeting_disclosure",
+      text: "disclose all meetings with lobbyists and PAC representatives.",
+      shortText: "Meeting transparency",
+      weight: 4,
+      version: "1.0.0",
+    },
+  ],
+};
