@@ -15,6 +15,7 @@ export const positions: {
       positionId: "president",
       title: "President of the United States",
       displayTemplate: "President {lastName}",
+      futureTemplate: "Presidential Candidate {lastName}",
       level: "federal",
       appointed: false,
       branch: "executive",
@@ -26,6 +27,7 @@ export const positions: {
       positionId: "vicePresident",
       title: "Vice President of the United States",
       displayTemplate: "Vice President {firstName} {lastName}",
+      futureTemplate: "Vice Presidential Candidate {firstName} {lastName}",
       level: "federal",
       appointed: false,
       branch: "executive",
@@ -37,6 +39,7 @@ export const positions: {
       positionId: "secretaryOfState",
       title: "Secretary of State",
       displayTemplate: "Secretary of State {firstName} {lastName}",
+      futureTemplate: "Secretary of State Nomeniee {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -48,6 +51,8 @@ export const positions: {
       positionId: "secretaryOfTreasury",
       title: "Secretary of the Treasury",
       displayTemplate: "Secretary of the Treasury {firstName} {lastName}",
+      futureTemplate:
+        "Secretary of the Treasury Nomeniee {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -58,6 +63,7 @@ export const positions: {
       positionId: "secretaryOfDefense",
       title: "Secretary of Defense",
       displayTemplate: "Secretary of Defense {firstName} {lastName}",
+      futureTemplate: "Secretary of Defense Nomeniee {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -69,6 +75,7 @@ export const positions: {
       positionId: "attorneyGeneral",
       title: "Attorney General",
       displayTemplate: "Attorney General {firstName} {lastName}",
+      futureTemplate: "Attorney General Nomeniee {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -79,7 +86,8 @@ export const positions: {
     {
       positionId: "usAttorney",
       title: "United States Attorney",
-      displayTemplate: "Attorney General {firstName} {lastName}",
+      displayTemplate: "United States Attorney {firstName} {lastName}",
+      futureTemplate: "United States Attorney {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -312,6 +320,7 @@ export const positions: {
     {
       positionId: "administratorOfFederalEmergencyManagementAgency",
       title: "Administrator of the Federal Emergency Management Agency",
+      displayTemplate: "FEMA Administrator {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -321,6 +330,7 @@ export const positions: {
     {
       positionId: "administratorOfGeneralServicesAdministration",
       title: "Administrator of the General Services Administration",
+      displayTemplate: "General Services Administrator {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -331,6 +341,7 @@ export const positions: {
     {
       positionId: "administratorOfTransportationSecurityAdministration",
       title: "Administrator of the Transportation Security Administration",
+      displayTemplate: "TSA Administrator {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -340,6 +351,9 @@ export const positions: {
     {
       positionId: "deputySecretaryOfState",
       title: "Deputy Secretary of State",
+      displayTemplate: "{firstName} {lastName}, Deputy Secretary of State",
+      futureTemplate:
+        "{firstName} {lastName}, Deputy Secretary of State Nominee",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -350,6 +364,7 @@ export const positions: {
     {
       positionId: "deputySecretaryOfDefense",
       title: "Deputy Secretary of Defense",
+      displayTemplate: "{firstName} {lastName}, Deputy Secretary of Defense",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -361,6 +376,8 @@ export const positions: {
     {
       positionId: "chairmanOfJointChiefsOfStaff",
       title: "Chairman of the Joint Chiefs of Staff",
+      displayTemplate:
+        "{firstName} {lastName}, Chairman of the Joint Chiefs of Staff",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -371,6 +388,7 @@ export const positions: {
     {
       positionId: "directorOfCIA",
       title: "Director of the Central Intelligence Agency",
+      displayTemplate: "CIA Director {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -381,6 +399,7 @@ export const positions: {
     {
       positionId: "directorOfFBI",
       title: "Director of the Federal Bureau of Investigation",
+      displayTemplate: "FBI Director {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -391,6 +410,7 @@ export const positions: {
     {
       positionId: "surgeonGeneral",
       title: "Surgeon General of the United States",
+      displayTemplate: "Surgeon General {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -401,6 +421,7 @@ export const positions: {
     {
       positionId: "chiefOfStaff",
       title: "White House Chief of Staff",
+      displayTemplate: "White House Chief of Staff {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -411,6 +432,7 @@ export const positions: {
     {
       positionId: "nationalSecurityAdvisor",
       title: "National Security Advisor",
+      displayTemplate: "National Security Advisor {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -421,6 +443,7 @@ export const positions: {
     {
       positionId: "pressSecretary",
       title: "White House Press Secretary",
+      displayTemplate: "Press Secretary {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -431,6 +454,7 @@ export const positions: {
     {
       positionId: "ambassadorGeneral",
       title: "Ambassador (General)",
+      displayTemplate: "Ambassador General {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -441,6 +465,7 @@ export const positions: {
     {
       positionId: "postmasterGeneral",
       title: "Postmaster General",
+      displayTemplate: "Postmaster General {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -451,6 +476,7 @@ export const positions: {
     {
       positionId: "solicitorgGeneral",
       title: "Solicitor General",
+      displayTemplate: "Solicitor General {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -461,6 +487,7 @@ export const positions: {
     {
       positionId: "marshalGeneral",
       title: "U.S. Marshal (General)",
+      displayTemplate: "U.S. Marshal General {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "executive",
@@ -535,6 +562,9 @@ export const positions: {
     {
       positionId: "districtCourtJudge",
       title: "U.S. District Court Judge",
+      displayTemplate: "U.S. District Court Judge {firstName} {lastName}",
+      futureTemplate:
+        "U.S. District Court Judge Nominee {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "judicial",
@@ -545,6 +575,8 @@ export const positions: {
     {
       positionId: "magistrateJudge",
       title: "Magistrate Judge",
+      displayTemplate: "Magistrate Judge {firstName} {lastName}",
+      futureTemplate: "Magistrate Judge Nominee {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "judicial",
@@ -555,6 +587,7 @@ export const positions: {
     {
       positionId: "bankruptcyJudge",
       title: "Bankruptcy Judge",
+      displayTemplate: "Bankruptcy Judge {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "judicial",
@@ -569,6 +602,8 @@ export const positions: {
     {
       positionId: "courtOfFederalClaimsJudge",
       title: "U.S. Court of Federal Claims Judge",
+      displayTemplate:
+        "U.S. Court of Federal Claims Judge {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "judicial",
@@ -579,6 +614,7 @@ export const positions: {
     {
       positionId: "taxCourtJudge",
       title: "U.S. Tax Court Judge",
+      displayTemplate: "U.S. Tax Court Judge {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "judicial",
@@ -589,6 +625,8 @@ export const positions: {
     {
       positionId: "courtOfInternationalTradeJudge",
       title: "U.S. Court of International Trade Judge",
+      displayTemplate:
+        "U.S. Court of International Trade Judge {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "judicial",
@@ -599,6 +637,8 @@ export const positions: {
     {
       positionId: "federalAdministrativeLawJudge",
       title: "Federal Administrative Law Judge",
+      displayTemplate:
+        "Federal Administrative Law Judge {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "judicial",
@@ -613,6 +653,7 @@ export const positions: {
     {
       positionId: "chairmanOfFederalReserve",
       title: "Chairman of the Federal Reserve",
+      displayTemplate: "Chairman of the Federal Reserve {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "independent",
@@ -623,6 +664,8 @@ export const positions: {
     {
       positionId: "chairmanOfFederalCommunicationsCommission",
       title: "Chairman of the Federal Communications Commission",
+      displayTemplate:
+        "Chairman of the Federal Communications Commission {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "independent",
@@ -634,6 +677,8 @@ export const positions: {
     {
       positionId: "chairmanOfSecuritiesAndExchangeCommission",
       title: "Chairman of the Securities and Exchange Commission",
+      displayTemplate:
+        "Chairman of the Securities and Exchange Commission {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "independent",
@@ -644,6 +689,8 @@ export const positions: {
     {
       positionId: "chairmanOfFederalTradeCommission",
       title: "Chairman of the Federal Trade Commission",
+      displayTemplate:
+        "Chairman of the Federal Trade Commission {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "independent",
@@ -654,6 +701,8 @@ export const positions: {
     {
       positionId: "chairmanOfNationalLaborRelationsBoard",
       title: "Chairman of the National Labor Relations Board",
+      displayTemplate:
+        "Chairman of the National Labor Relations Board {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "independent",
@@ -664,6 +713,8 @@ export const positions: {
     {
       positionId: "chairmanOfEqualEmploymentOpportunityCommission",
       title: "Chairman of the Equal Employment Opportunity Commission",
+      displayTemplate:
+        "Chairman of the Equal Employment Opportunity Commission {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "independent",
@@ -678,7 +729,10 @@ export const positions: {
     {
       positionId: "governor",
       title: "Governor",
+      displayTemplate: "{state} Governor {firstName} {lastName}",
+      futureTemplate: "{state} Gobentoral Canidate {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: false,
       branch: "executive",
       department: null,
@@ -688,7 +742,11 @@ export const positions: {
     {
       positionId: "lieutenantGovernor",
       title: "Lieutenant Governor",
+      displayTemplate: "{state} Lieutenant Governor {firstName} {lastName}",
+      futureTemplate:
+        "{state} Lieutenant Gobentoral Canidate {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: false,
       branch: "executive",
       department: null,
@@ -698,7 +756,11 @@ export const positions: {
     {
       positionId: "stateAttorneyGeneral",
       title: "State Attorney General",
+      displayTemplate: "{state} State Attorney General {firstName} {lastName}",
+      futureTemplate:
+        "{state} State Attorney General Canidate {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: false,
       branch: "executive",
       department: null,
@@ -708,7 +770,12 @@ export const positions: {
     {
       positionId: "stateSecretaryOfState",
       title: "State Secretary of State",
+      displayTemplate:
+        "{state} State Secretary of State {firstName} {lastName}",
+      futureTemplate:
+        "{state} State Secretary of State Canidate {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: false,
       branch: "executive",
       department: null,
@@ -718,7 +785,10 @@ export const positions: {
     {
       positionId: "stateTreasurer",
       title: "State Treasurer",
+      displayTemplate: "{state} State Treasurer {firstName} {lastName}",
+      futureTemplate: "{state} State Treasurer Canidate {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: false,
       branch: "executive",
       department: null,
@@ -727,13 +797,27 @@ export const positions: {
     },
     {
       positionId: "stateAuditor",
-      title: "State Auditor / Comptroller",
+      title: "State Auditor",
+      displayTemplate: "State Auditor {firstName} {lastName}",
+      futureTemplate: "State Auditor Candidate {firstName} {lastName}",
       level: "state",
       appointed: false,
       branch: "executive",
       department: null,
       description:
         "Oversees audits of state agencies and programs to ensure financial accountability.",
+    },
+    {
+      positionId: "stateComptroller",
+      title: "State Comptroller",
+      displayTemplate: "State Comptroller {firstName} {lastName}",
+      futureTemplate: "State Comptroller Candidate {firstName} {lastName}",
+      level: "state",
+      appointed: false,
+      branch: "executive",
+      department: null,
+      description:
+        "Manages the state’s finances, including accounting, disbursements, and financial reporting.",
     },
 
     // =====================
@@ -879,7 +963,9 @@ export const positions: {
     {
       positionId: "stateDeputyAttorneyGeneral",
       title: "State Deputy Attorney General",
+      displayTemplate: "{state} Deputy Attorney General {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: true,
       branch: "executive",
       department: null,
@@ -931,7 +1017,10 @@ export const positions: {
     {
       positionId: "stateSupremeCourtJustice",
       title: "State Supreme Court Justice",
+      displayTemplate:
+        "{state} State Supreme Court Justice {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: true,
       branch: "judicial",
       department: null,
@@ -941,7 +1030,9 @@ export const positions: {
     {
       positionId: "stateChiefJustice",
       title: "State Chief Justice",
+      displayTemplate: "{state} State Chief Justice {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: true,
       branch: "judicial",
       department: null,
@@ -951,7 +1042,10 @@ export const positions: {
     {
       positionId: "stateAppellateJudge",
       title: "State Appellate Court Judge",
+      displayTemplate:
+        "{state} State Appellate Court Judge {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: true,
       branch: "judicial",
       department: null,
@@ -961,7 +1055,9 @@ export const positions: {
     {
       positionId: "stateJudge",
       title: "State Judge",
+      displayTemplate: "{state} State Judge {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: true,
       branch: "judicial",
       department: null,
@@ -975,7 +1071,10 @@ export const positions: {
     {
       positionId: "stateFamilyCourtJudge",
       title: "State Family Court Judge",
+      displayTemplate:
+        "{state} State Family Court Judge {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: true,
       branch: "judicial",
       department: null,
@@ -985,7 +1084,10 @@ export const positions: {
     {
       positionId: "stateJuvenileCourtJudge",
       title: "State Juvenile Court Judge",
+      displayTemplate:
+        "{state} State Juvenile Court Judge {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: true,
       branch: "judicial",
       department: null,
@@ -995,7 +1097,10 @@ export const positions: {
     {
       positionId: "stateAdministrativeLawJudge",
       title: "State Administrative Law Judge",
+      displayTemplate:
+        "{state} State Administrative Law Judge {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: true,
       branch: "judicial",
       department: null,
@@ -1060,13 +1165,27 @@ export const positions: {
     },
     {
       positionId: "countyClerk",
-      title: "County Clerk / Recorder of Deeds",
+      title: "County Clerk",
+      displayTemplate: "County Clerk {firstName} {lastName}",
+      futureTemplate: "County Clerk Candidate {firstName} {lastName}",
       level: "local",
       appointed: false,
       branch: "executive",
       department: null,
       description:
-        "Maintains county records, vital statistics, and public documents such as property deeds.",
+        "Oversees county administration, maintains records, and manages local elections.",
+    },
+    {
+      positionId: "recorderOfDeeds",
+      title: "Recorder of Deeds",
+      displayTemplate: "Recorder of Deeds {firstName} {lastName}",
+      futureTemplate: "Recorder of Deeds Candidate {firstName} {lastName}",
+      level: "local",
+      appointed: false,
+      branch: "executive",
+      department: null,
+      description:
+        "Maintains property records and public documents such as deeds and titles.",
     },
     {
       positionId: "assessor",
@@ -1266,7 +1385,9 @@ export const positions: {
     {
       positionId: "policeChief",
       title: "Police Chief",
+      displayTemplate: "Police Chief of {city}, {firstName} {lastName}",
       level: "local",
+      scope: ["city"],
       appointed: true,
       branch: "executive",
       department: null,
@@ -1275,8 +1396,10 @@ export const positions: {
     },
     {
       positionId: "fireChief",
-      title: "Fire Chief / Fire Marshal",
+      title: "Fire Chief",
+      displayTemplate: "Fire Chief of {city}, {firstName} {lastName}",
       level: "local",
+      scope: ["city"],
       appointed: true,
       branch: "executive",
       department: null,
@@ -1284,9 +1407,24 @@ export const positions: {
         "Oversees fire department operations, fire prevention, and emergency response services.",
     },
     {
-      positionId: "countyBoardMember",
-      title: "County Board Member / Supervisor",
+      positionId: "fireMarshal",
+      title: "Fire Marshal",
+      displayTemplate: "Fire Marshal of {city}, {firstName} {lastName}",
       level: "local",
+      scope: ["city"],
+      appointed: true,
+      branch: "executive",
+      department: null,
+      description:
+        "Enforces fire safety regulations, investigates fires, and conducts inspections.",
+    },
+    {
+      positionId: "countyBoardMember",
+      title: "County Board Member",
+      displayTemplate:
+        "County Board Member of {county}, {firstName} {lastName}",
+      level: "local",
+      scope: ["county"],
       appointed: false,
       branch: "legislative",
       department: null,
@@ -1294,9 +1432,23 @@ export const positions: {
         "Serves on the county board, makes policy decisions, approves budgets, and represents constituents.",
     },
     {
+      positionId: "countySupervisor",
+      title: "County Supervisor",
+      displayTemplate: "County Supervisor of {county}, {firstName} {lastName}",
+      level: "local",
+      scope: ["county"],
+      appointed: false,
+      branch: "legislative",
+      department: null,
+      description:
+        "Oversees county operations, manages programs, and represents constituents.",
+    },
+    {
       positionId: "cityClerk",
       title: "City Clerk",
+      displayTemplate: "City Clerk of {city}, {firstName} {lastName}",
       level: "local",
+      scope: ["city"],
       appointed: false,
       branch: "executive",
       department: null,
@@ -1306,7 +1458,9 @@ export const positions: {
     {
       positionId: "townshipClerk",
       title: "Township Clerk",
+      displayTemplate: "Township Clerk of {township}, {firstName} {lastName}",
       level: "local",
+      scope: ["township"],
       appointed: false,
       branch: "executive",
       department: null,
@@ -1317,7 +1471,9 @@ export const positions: {
     {
       positionId: "countyJudgeExecutive",
       title: "County Judge/Executive (Elected)",
+      displayTemplate: "County Judge/Executive {firstName} {lastName}",
       level: "local",
+      scope: ["county"],
       appointed: false,
       branch: "executive",
       department: null,
@@ -1327,7 +1483,9 @@ export const positions: {
     {
       positionId: "cityManager",
       title: "City Manager",
+      displayTemplate: "{city} City Manager {firstName} {lastName}",
       level: "local",
+      scope: ["city"],
       appointed: true,
       branch: "executive",
       department: null,
@@ -1337,7 +1495,10 @@ export const positions: {
     {
       positionId: "countyManager",
       title: "County Manager/Administrator",
+      displayTemplate:
+        "{state} {county} County Manager/Administrator {firstName} {lastName}",
       level: "local",
+      scope: ["state", "county"],
       appointed: true,
       branch: "executive",
       department: null,
@@ -1347,6 +1508,7 @@ export const positions: {
     {
       positionId: "publicDefender",
       title: "Public Defender",
+      displayTemplate: "Public Defender {firstName} {lastName}",
       level: "local",
       appointed: true,
       branch: "executive",
@@ -1357,6 +1519,7 @@ export const positions: {
     {
       positionId: "registerOfWills",
       title: "Register of Wills",
+      displayTemplate: "Register of Wills {firstName} {lastName}",
       level: "local",
       appointed: false,
       branch: "executive",
@@ -1395,14 +1558,18 @@ export const positions: {
     },
     // NEW LOCAL LEGISLATIVE POSITIONS
     {
-      positionId: "aldermenAlderwomen",
-      title: "Aldermen/Alderwomen",
+      positionId: "alderperson",
+      title: "Alderperson",
+      displayTemplate: "Alderperson {firstName} {lastName}",
+      futureTemplate:
+        "{city}, {state} Alderperson Candidate {firstName} {lastName}",
       level: "local",
+      scope: ["state", "city"],
       appointed: false,
       branch: "legislative",
       department: null,
       description:
-        "City council members in certain municipalities, particularly in the Midwest.",
+        "Elected members of a city council who represent local wards or districts, making municipal laws and policies.",
     },
     {
       positionId: "mayorCouncilMember",
@@ -1421,17 +1588,21 @@ export const positions: {
     {
       positionId: "localJudge",
       title: "Local Judge",
+      displayTemplate: "Judge of {county} {firstName} {lastName}",
       level: "local",
+      scope: ["county"],
       appointed: true,
       branch: "judicial",
       department: null,
       description:
-        "Handles civil and criminal cases at the county or municipal ",
+        "Handles civil and criminal cases at the county or municipal level.",
     },
     {
       positionId: "municipalJudge",
-      title: "Municipal Judge / Justice of the Peace",
+      title: "Municipal Judge",
+      displayTemplate: "Municipal Judge of {city} {firstName} {lastName}",
       level: "local",
+      scope: ["city"],
       appointed: true,
       branch: "judicial",
       department: null,
@@ -1439,10 +1610,37 @@ export const positions: {
         "Oversees local court cases, often traffic, misdemeanors, or small claims disputes.",
     },
     {
-      positionId: "probateJudge",
-      title: "Probate Judge",
+      positionId: "justiceOfThePeace",
+      title: "Justice of the Peace",
+      displayTemplate:
+        "Justice of the Peace of {county} {firstName} {lastName}",
       level: "local",
+      scope: ["county"],
+      appointed: false,
+      branch: "judicial",
+      department: null,
+      description:
+        "Handles minor civil and criminal cases, officiates weddings, and manages small claims disputes.",
+    },
+    {
+      positionId: "probateJudgeAppointed",
+      title: "Probate Judge (Appointed)",
+      displayTemplate: "Probate Judge of {county} {firstName} {lastName}",
+      level: "local",
+      scope: ["county"],
       appointed: true,
+      branch: "judicial",
+      department: null,
+      description:
+        "Handles cases involving wills, estates, guardianship, and conservatorship.",
+    },
+    {
+      positionId: "probateJudgeElected",
+      title: "Probate Judge (Elected)",
+      displayTemplate: "Probate Judge of {county} {firstName} {lastName}",
+      level: "local",
+      scope: ["county"],
+      appointed: false,
       branch: "judicial",
       department: null,
       description:
@@ -1501,10 +1699,26 @@ export const positions: {
         "Handles minor civil and criminal matters, marriages, and small claims at the township level.",
     },
     {
-      positionId: "localAdministrativeLawJudge",
-      title: "Local Administrative Law Judge",
+      positionId: "localAdministrativeLawJudgeAppointed",
+      title: "Local Administrative Law Judge (Appointed)",
+      displayTemplate:
+        "Administrative Law Judge of {county} {firstName} {lastName}",
       level: "local",
+      scope: ["county"],
       appointed: true,
+      branch: "judicial",
+      department: null,
+      description:
+        "Presides over hearings on local government regulations, licenses, and disputes.",
+    },
+    {
+      positionId: "localAdministrativeLawJudgeElected",
+      title: "Local Administrative Law Judge (Elected)",
+      displayTemplate:
+        "Administrative Law Judge of {county} {firstName} {lastName}",
+      level: "local",
+      scope: ["county"],
+      appointed: false,
       branch: "judicial",
       department: null,
       description:
@@ -1537,6 +1751,7 @@ export const positions: {
     {
       positionId: "territorialLegislator",
       title: "Territorial Legislator",
+      displayTemplate: "Territorial Legislator {firstName} {lastName}",
       level: "territorial",
       appointed: false,
       branch: "legislative",
@@ -1606,6 +1821,7 @@ export const positions: {
     {
       positionId: "otherFederalLegislativeOfficeAppointed",
       title: "Other Federal Legislative Office (Appointed)",
+      displayTemplate: "Federal Legislator (Other) {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "legislative",
@@ -1616,6 +1832,7 @@ export const positions: {
     {
       positionId: "otherFederalJudicialOffice",
       title: "Other Federal Judicial Office (Appointed)",
+      displayTemplate: "Federal Judge (Other) {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "judicial",
@@ -1625,7 +1842,8 @@ export const positions: {
     },
     {
       positionId: "otherFederalIndependentOffice",
-      title: "Other Federal Independent Office (Appointed)",
+      title: "Federal Independent Office (Appointed)",
+      displayTemplate: "Federal Independent (Other) {firstName} {lastName}",
       level: "federal",
       appointed: true,
       branch: "independent",
@@ -1638,7 +1856,9 @@ export const positions: {
     {
       positionId: "otherStateExecutiveOfficeElected",
       title: "Other State Executive Office (Elected)",
+      displayTemplate: "{state} State Executive (Other) {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: false,
       branch: "executive",
       department: null,
@@ -1648,7 +1868,9 @@ export const positions: {
     {
       positionId: "otherStateExecutiveOfficeAppointed",
       title: "Other State Executive Office (Appointed)",
+      displayTemplate: "{state} State Executive (Other) {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: true,
       branch: "executive",
       department: null,
@@ -1658,7 +1880,10 @@ export const positions: {
     {
       positionId: "otherStateLegislativeOfficeElected",
       title: "Other State Legislative Office (Elected)",
+      displayTemplate:
+        "{state} State Legislator (Other) {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: false,
       branch: "legislative",
       department: null,
@@ -1668,7 +1893,10 @@ export const positions: {
     {
       positionId: "otherStateLegislativeOfficeAppointed",
       title: "Other State Legislative Office (Appointed)",
+      displayTemplate:
+        "{state} State Legislator (Other) {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: true,
       branch: "legislative",
       department: null,
@@ -1678,7 +1906,9 @@ export const positions: {
     {
       positionId: "otherStateJudicialOfficeElected",
       title: "Other State Judicial Office (Elected)",
+      displayTemplate: "{state} Judge (Other) {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: false,
       branch: "judicial",
       department: null,
@@ -1688,7 +1918,9 @@ export const positions: {
     {
       positionId: "otherStateJudicialOfficeAppointed",
       title: "Other State Judicial Office (Appointed)",
+      displayTemplate: "{state} Judge (Other) {firstName} {lastName}",
       level: "state",
+      scope: ["state"],
       appointed: true,
       branch: "judicial",
       department: null,
@@ -1700,6 +1932,7 @@ export const positions: {
     {
       positionId: "otherLocalExecutiveOfficeElected",
       title: "Other Local Executive Office (Elected)",
+      displayTemplate: "Local Executive (Other) {firstName} {lastName}",
       level: "local",
       appointed: false,
       branch: "executive",
@@ -1710,6 +1943,7 @@ export const positions: {
     {
       positionId: "otherLocalExecutiveOfficeAppointed",
       title: "Other Local Executive Office (Appointed)",
+      displayTemplate: "Local Executive (Other) {firstName} {lastName}",
       level: "local",
       appointed: true,
       branch: "executive",
@@ -1720,6 +1954,7 @@ export const positions: {
     {
       positionId: "otherLocalLegislativeOfficeElected",
       title: "Other Local Legislative Office (Elected)",
+      displayTemplate: "Local Legislator (Other) {firstName} {lastName}",
       level: "local",
       appointed: false,
       branch: "legislative",
@@ -1730,6 +1965,7 @@ export const positions: {
     {
       positionId: "otherLocalLegislativeOfficeAppointed",
       title: "Other Local Legislative Office (Appointed)",
+      displayTemplate: "Local Legislator (Other) {firstName} {lastName}",
       level: "local",
       appointed: true,
       branch: "legislative",
@@ -1740,6 +1976,7 @@ export const positions: {
     {
       positionId: "otherLocalJudicialOfficeElected",
       title: "Other Local Judicial Office (Elected)",
+      displayTemplate: "Local Judge (Other) {firstName} {lastName}",
       level: "local",
       appointed: false,
       branch: "judicial",
@@ -1750,6 +1987,7 @@ export const positions: {
     {
       positionId: "otherLocalJudicialOfficeAppointed",
       title: "Other Local Judicial Office (Appointed)",
+      displayTemplate: "Local Judge (Other) {firstName} {lastName}",
       level: "local",
       appointed: true,
       branch: "judicial",
@@ -1762,6 +2000,7 @@ export const positions: {
     {
       positionId: "otherTerritorialOffice",
       title: "Other Territorial Office",
+      displayTemplate: "Territorial Executive (Other) {firstName} {lastName}",
       level: "territorial",
       appointed: false,
       branch: "executive",
@@ -1774,6 +2013,7 @@ export const positions: {
     {
       positionId: "otherTribalOffice",
       title: "Other Tribal Office",
+      displayTemplate: "Tribal (Other) {firstName} {lastName}",
       level: "tribal",
       appointed: false,
       branch: "executive",
