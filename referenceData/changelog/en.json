@@ -1,0 +1,40 @@
+[
+  {
+    "version": "0.1.0",
+    "date": "2025-10-08",
+    "summary": "First public demo release",
+    "changes": [
+      "Launched the first demo of Account for Corruption",
+      "Users can now make accounts, sign in and make pledges",
+      "Politicians and influencers appear in the public pledge feed"
+    ]
+  },
+  {
+    "version": "0.1.1",
+    "date": "2025-10-19",
+    "summary": "Improved demo experience",
+    "changes": [
+      "Improved the demo experience with better sample data",
+      "Updated how pledges and profiles are displayed for a clearer view",
+      "Made the site faster and more reliable"
+    ]
+  },
+  {
+    "version": "0.2.0",
+    "date": "2025-10-29",
+    "summary": "Major design polish and usability improvements",
+    "changes": [
+      "Refreshed the design across the site for a cleaner, more polished look",
+      "Fixed small bugs and improved overall usability"
+    ]
+  },
+  {
+    "version": "0.3.0",
+    "date": "2025-11-13",
+    "summary": "Added signing conditions",
+    "changes": [
+      "Added signing conditions to pledges",
+      "Improved some infrustrature to support future updates"
+    ]
+  }
+]
