@@ -1,7 +1,7 @@
 # Account for Corruption
 
-**Version 0.3.0 – November 13, 2025**  
-[View full changelog →](/frontend/src/referenceData/changelog/en.json)
+**Version 0.3.1 – November 19, 2025**  
+[Demo →](https://pheintzelman.github.io/account-for-corruption-demo/)
 
 Account for Corruption is a **nonpartisan platform** for voter and leader pledges against corruption.  
 It unifies public commitments, tracks support, and creates transparency — helping citizens and influencers push for accountable government.
@@ -134,8 +134,6 @@ It unifies public commitments, tracks support, and creates transparency — help
 - [x] Fix pledge generation to not skip pledges
 
 </details>
-
----
 
 ---
 
