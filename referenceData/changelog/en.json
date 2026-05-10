@@ -36,5 +36,37 @@
       "Added signing conditions to pledges",
       "Improved some infrustrature to support future updates"
     ]
+  },
+  {
+    "version": "0.3.1",
+    "date": "2025-11-19",
+    "summary": "Minor infrustrature changes",
+    "changes": ["Improved automated deployment"]
+  },
+  {
+    "version": "0.4.0",
+    "date": "2026-04-12",
+    "summary": "Major UI updates",
+    "changes": ["Added inbox", "Email verification flow", "Updated Nav"]
+  },
+  {
+    "version": "0.5.0",
+    "date": "2026-04-14",
+    "summary": "Added stats and fixed bugs",
+    "changes": [
+      "Added stats page with overview and commitment map",
+      "Fixed login bugs",
+      "Fixed inbox and real-time updates"
+    ]
+  },
+  {
+    "version": "0.6.0",
+    "date": "2026-04-17",
+    "summary": "Account management and Feed improvements",
+    "changes": [
+      "Feed filters, pagination and UI improvements",
+      "Account pages (Basic, Voter, Influencer, Links)",
+      "Refined user creation flow for politicians"
+    ]
   }
 ]
